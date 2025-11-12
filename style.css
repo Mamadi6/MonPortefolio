@@ -1,0 +1,17 @@
+.container{
+    /* declarer que l'on souhaite utiliser la methode flex */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* pour creer un espace entre les enfants */
+    justify-content: space-around;
+
+    /* si l'on souhaite que les elements se mettent en colonne */
+    /* flex-direction: column; */
+}
+.flex_item{
+    width: 20%;
+    min-width: 200px;
+    text-align: justify;
+    margin-bottom: 5%;
+}
