@@ -72,9 +72,19 @@ header .lien{
     border-radius: 10px;
 }
 footer{
-    text-align: center;
-    color: blue;
-    margin-top: 10%;
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.reseaux a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 5px;  
+}
+.reseaux a:hover{
+    color: blue;    
 }
 
 .container{
