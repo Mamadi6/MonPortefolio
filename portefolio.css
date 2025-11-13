@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 15px;
     box-sizing: border-box;
+    background-color: gray;
+    color: white;
     /* background-color: rgba(6, 143, 153, 0.733); */
     /* background-image: url(/image/photoportefolio.png);
     height: 100%;
@@ -13,9 +15,8 @@ body {
 .head{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    /* background-color: lightgray; */
-    /* padding: 10px; */
+    background-color:aqua;
+    color: white;
 }
 p{
     text-align: justify;
@@ -33,6 +34,22 @@ h2{
     height: 100px;
     border-radius: 50%;
     border: solid 5px gray;  
+}
+.experiences{
+    background-color:aqua;
+    color: white;
+}
+.parcours{
+    background-color:aqua;
+    color: white;
+}
+.contact{
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:aqua;
+    color: white;
 }
 
 header .lien{
@@ -81,10 +98,10 @@ footer{
     justify-content: space-between;
 }
 .formulaire{
-    /* background-color: aqua; */
     border: 2px solid gray;
     border-radius: 10px;
     text-align: center;
+    margin: 10px;
     padding: 10px;
     
 }
