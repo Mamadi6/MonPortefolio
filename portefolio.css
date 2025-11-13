@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 15px;
     box-sizing: border-box;
-    background-color: rgb(38, 19, 19);
-    color: white;
+    background-color: #f9fafb;
+    color: #1f2937;
     /* background-color: rgba(6, 143, 153, 0.733); */
     /* background-image: url(/image/photoportefolio.png);
     height: 100%;
@@ -18,7 +18,7 @@ body {
 }
 .head:hover{
     background-color:aqua;
-    color: black;
+    color: #2563eb;
 }
 p{
     text-align: justify;
@@ -67,13 +67,13 @@ header .lien{
 }
 .lien a{
     text-decoration: none;
-    color: white;
+    color: #1f2937;
     text-transform: uppercase;
     font-size: 15px;
 }
 .lien a:hover{
-    background-color: blue;
-    color: black;
+    background-color: white;
+    color: blue;
     border-radius: 10px;
 }
 footer{
@@ -150,14 +150,15 @@ footer{
 .videos{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    flex: 1 1;
     justify-content: space-around;
 }
 .video{
     /* border: solid 2px gray; */
     padding: 5px;
-    flex: 2 1;
-    margin: 5px;
+    flex: 1 1;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .video img{
     width: 500px;
@@ -165,6 +166,7 @@ footer{
     border: 5px solid gray;
 }
 .video h3{
-    text-align:start;
+    text-align:center;
     margin-left: 10%;
 }
+
