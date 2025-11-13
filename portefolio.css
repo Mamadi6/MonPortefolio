@@ -127,10 +127,10 @@ footer{
     flex: 2 1;
     margin: 5px;
 }
-.video video{
+.video img{
     width: 500px;
     height: 200;
-    border: 5px;
+    border: 5px solid gray;
 }
 .video h3{
     text-align:start;
