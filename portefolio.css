@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 15px;
     box-sizing: border-box;
-    background-color: #f9fafb;
+    background-color: rgb(208, 211, 207);
     color: #1f2937;
     /* background-color: rgba(6, 143, 153, 0.733); */
     /* background-image: url(/image/photoportefolio.png);
@@ -16,8 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.head:hover{
-    background-color:aqua;
+.head{
+    background-color:blueviolet;
     color: #2563eb;
 }
 p{
@@ -35,15 +35,15 @@ h2{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: solid 5px gray;  
+    border: solid 5px white;  
 }
-.experiences:hover{
-    background-color:aqua;
-    color: black;
+.experiences{
+    background-color:blueviolet;
+    color: white;
 }
-.parcours:hover{
-    background-color:aqua;
-    color: black;
+.parcours{
+    background-color:blueviolet;
+    color: white;
 }
 .contact{
     display: flex;
@@ -52,9 +52,9 @@ h2{
     justify-content: space-around;
 
 }
-.contact:hover{
-    background-color:aqua;
-    color: black;
+.contact{
+    background-color:blueviolet;
+    color: white;
 }
 
 header .lien{
@@ -67,7 +67,7 @@ header .lien{
 }
 .lien a{
     text-decoration: none;
-    color: #1f2937;
+    color: white;
     text-transform: uppercase;
     font-size: 15px;
 }
@@ -84,7 +84,7 @@ footer{
 }
 .reseaux a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 25px;
     margin: 5px;  
 }

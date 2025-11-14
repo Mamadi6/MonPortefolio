@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="stylesheet" href="portefolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Mon portefolio</title>
 </head>
 <body>
+    <p id="contexte">
+        <span id="question">Voulez-vous jeter un coup d'oeil sur mon Portefolio</span> <br>
+        <span id="oui" style="color: black;">OUI | </span>  <span id="non" style="color: black;"> NON</span>
+    </p>
+    <div id="body">
     <header>
         <nav>
             <div class="head">
@@ -177,16 +183,16 @@
                 
                 <div class="formulaire">
                     <h2>Formulaire de contact</h2>
-                <form action="https://formsubmit.co/samassamamadi1@gmail.com" method="POST" target="_blank">
-                        <input type="hidden" name="subject" value="Nouveau message du portefolio !">
+                <form id="form" action="https://formsubmit.co/samassamamadi1@gmail.com" method="POST" target="_blank">
+                        <input type="hidden" name="subject" id="subject" value="Nouveau message du portefolio !">
                         <label for="">Nom</label>
-                        <input type="text" name="nom" id="" placeholder="Veuillez saisir votre nom"> <br> <br>
+                        <input type="text" name="nom" id="nom" placeholder="Veuillez saisir votre nom"> <br> <br>
                         <label for="">Prénom</label>
-                        <input type="text" name="prenom" id="" placeholder="Veuillez saisir votre prénom"> <br> <br>
+                        <input type="text" name="prenom" id="prenom" placeholder="Veuillez saisir votre prénom"> <br> <br>
                         <label for="">Email</label>
-                        <input type="email" name="email" id="" required placeholder="Veuillez saisir votre email"><br> <br>
+                        <input type="email" name="email" id="email" required placeholder="Veuillez saisir votre email"><br> <br>
                         <label for="">Message</label> <br>
-                        <textarea name="message" id="" rows="10" cols="30" placeholder="Ecrire votre message ici"></textarea> <br> <br>
+                        <textarea name="message" id="message" rows="10" cols="30" placeholder="Ecrire votre message ici"></textarea> <br> <br>
                         <button type="submit">Envoyer</button>
                     </form>
                 </div>
@@ -204,6 +210,9 @@
             </p>
         </div>
     </footer>
+    </div>
     
+
+    <script src="script.js"></script>
 </body>
 </html>
