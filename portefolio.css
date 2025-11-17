@@ -4,14 +4,30 @@ body {
     box-sizing: border-box;
     background-color: rgb(208, 211, 207);
     color: black;
-    /* background-color: rgba(6, 143, 153, 0.733); */
-    /* background-image: url(/image/photoportefolio.png);
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
 }
+.head{
+    position: fixed;
+    top: 0; 
+    left: 5;
+    right: 5;
+    width: 97.8%;
+    z-index: 1000;
+    border-bottom: 10px solid rgb(208, 211, 207);
+    
+}
+.poste{
+    font-weight: bold;
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.poste:hover{
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    background-color: blueviolet;}
 .head{
     display: flex;
     justify-content: space-between;
@@ -40,6 +56,22 @@ h2{
 .experiences{
     background-color:blueviolet;
     color: white;
+}
+.experiences:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+.experiences h2:hover{
+    color: blueviolet;
+}
+.parcours:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+.parcours h2:hover{
+    color: blueviolet;
 }
 .parcours{
     background-color:blueviolet;
@@ -145,7 +177,7 @@ footer{
     justify-content: center;
 }
 .images p:hover{
-    background-color: black;
+    background-color: blueviolet;
 }
 .videos{
     display: flex;
@@ -169,4 +201,5 @@ footer{
     text-align:center;
     margin-left: 10%;
 }
+
 
